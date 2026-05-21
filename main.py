@@ -730,4 +730,7 @@ if __name__ == '__main__':
     print(f"   KrishiMitra video: {KRISHI_VIDEO_PATH}")
     print("📧 TO ENABLE EMAIL: Replace YOUR_PASSWORD with a Gmail App Password")
     print("=" * 65)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    
+
+    if __name__ == "__main__":
+        app.run(host="0.0.0.0", port=5000)
